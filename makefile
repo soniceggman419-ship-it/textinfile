@@ -1,0 +1,2 @@
+build:
+	gcc textinfile.c
