@@ -1,2 +1,2 @@
 build:
-	gcc textinfile.c
+	gcc textinfile.c -o textinfile
