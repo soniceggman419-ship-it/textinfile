@@ -1,7 +1,7 @@
 pkgname=textinfile
 pkgver=1.0
 pkgrel=1
-arch=('any')
+arch=('x86_64')
 license=('MIT')
 
 build() {
@@ -9,5 +9,5 @@ build() {
 }
 
 package() {
-    install -Dm755 hello "$pkgdir/usr/bin/textinfile"
+    install -Dm755 textinfile "$pkgdir/usr/bin/textinfile"
 }
