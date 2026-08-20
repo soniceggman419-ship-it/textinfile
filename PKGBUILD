@@ -5,7 +5,7 @@ arch=('x86_64')
 license=('MIT')
 
 build() {
-    make
+    make build
 }
 
 package() {
