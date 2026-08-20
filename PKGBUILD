@@ -4,8 +4,12 @@ pkgrel=1
 arch=('x86_64')
 license=('MIT')
 
+source=()
+
 build() {
-    gcc textinfile.c -o textinfile
+    cp "$startdir/Makefile" .
+    cp "$startdir/textinfile.c" .
+    make build
 }
 
 package() {
