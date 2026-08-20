@@ -5,7 +5,7 @@ arch=('x86_64')
 license=('MIT')
 
 build() {
-    make build
+    gcc textinfile.c -o textinfile
 }
 
 package() {
